@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">android_amazon</string>
+    <string name="strikethrough_text"><![CDATA[<strike>Your Text Here</strike>]]></string>
 </resources>

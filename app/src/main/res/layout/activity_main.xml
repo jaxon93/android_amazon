@@ -169,93 +169,99 @@
                     android:textColor="#000000"
                     android:textSize="17sp" />
 
-                <LinearLayout
-                    android:id="@+id/ll_fashion"
-                    android:layout_marginTop="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    android:orientation="vertical">
+                <!--                <LinearLayout-->
+                <!--                    android:id="@+id/ll_fashion"-->
+                <!--                    android:layout_marginTop="10dp"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="300dp"-->
+                <!--                    android:orientation="vertical">-->
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        android:layout_weight="1">
+                <!--                    <LinearLayout-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="0dp"-->
+                <!--                        android:layout_weight="1">-->
 
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginRight="2dp"
-                            android:layout_weight="1">
+                <!--                        <LinearLayout-->
+                <!--                            android:layout_width="0dp"-->
+                <!--                            android:layout_height="match_parent"-->
+                <!--                            android:layout_marginRight="2dp"-->
+                <!--                            android:layout_weight="1">-->
 
-                            <com.google.android.material.imageview.ShapeableImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:adjustViewBounds="true"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/im_sneaker_1" />
-                        </LinearLayout>
+                <!--                            <com.google.android.material.imageview.ShapeableImageView-->
+                <!--                                android:layout_width="match_parent"-->
+                <!--                                android:layout_height="match_parent"-->
+                <!--                                android:adjustViewBounds="true"-->
+                <!--                                android:scaleType="centerCrop"-->
+                <!--                                android:src="@drawable/im_sneaker_1" />-->
+                <!--                        </LinearLayout>-->
 
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginLeft="2dp"
-                            android:layout_weight="1">
+                <!--                        <LinearLayout-->
+                <!--                            android:layout_width="0dp"-->
+                <!--                            android:layout_height="match_parent"-->
+                <!--                            android:layout_marginLeft="2dp"-->
+                <!--                            android:layout_weight="1">-->
 
-                            <com.google.android.material.imageview.ShapeableImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:adjustViewBounds="true"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/im_sneaker_2" />
-                        </LinearLayout>
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        android:layout_marginTop="4dp"
-                        android:layout_weight="1">
-
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginRight="2dp"
-                            android:layout_weight="1">
-
-                            <com.google.android.material.imageview.ShapeableImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:adjustViewBounds="true"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/im_sneaker_3" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginLeft="2dp"
-                            android:layout_weight="1">
-
-                            <com.google.android.material.imageview.ShapeableImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:adjustViewBounds="true"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/im_sneaker_4" />
-                        </LinearLayout>
+                <!--                            <com.google.android.material.imageview.ShapeableImageView-->
+                <!--                                android:layout_width="match_parent"-->
+                <!--                                android:layout_height="match_parent"-->
+                <!--                                android:adjustViewBounds="true"-->
+                <!--                                android:scaleType="centerCrop"-->
+                <!--                                android:src="@drawable/im_sneaker_2" />-->
+                <!--                        </LinearLayout>-->
 
 
-                    </LinearLayout>
+                <!--                    </LinearLayout>-->
 
-                </LinearLayout>
+                <!--                    <LinearLayout-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="0dp"-->
+                <!--                        android:layout_marginTop="4dp"-->
+                <!--                        android:layout_weight="1">-->
+
+                <!--                        <LinearLayout-->
+                <!--                            android:layout_width="0dp"-->
+                <!--                            android:layout_height="match_parent"-->
+                <!--                            android:layout_marginRight="2dp"-->
+                <!--                            android:layout_weight="1">-->
+
+                <!--                            <com.google.android.material.imageview.ShapeableImageView-->
+                <!--                                android:layout_width="match_parent"-->
+                <!--                                android:layout_height="match_parent"-->
+                <!--                                android:adjustViewBounds="true"-->
+                <!--                                android:scaleType="centerCrop"-->
+                <!--                                android:src="@drawable/im_sneaker_3" />-->
+                <!--                        </LinearLayout>-->
+
+                <!--                        <LinearLayout-->
+                <!--                            android:layout_width="0dp"-->
+                <!--                            android:layout_height="match_parent"-->
+                <!--                            android:layout_marginLeft="2dp"-->
+                <!--                            android:layout_weight="1">-->
+
+                <!--                            <com.google.android.material.imageview.ShapeableImageView-->
+                <!--                                android:layout_width="match_parent"-->
+                <!--                                android:layout_height="match_parent"-->
+                <!--                                android:adjustViewBounds="true"-->
+                <!--                                android:scaleType="centerCrop"-->
+                <!--                                android:src="@drawable/im_sneaker_4" />-->
+                <!--                        </LinearLayout>-->
+
+
+                <!--                    </LinearLayout>-->
+
+                <!--                </LinearLayout>-->
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_sneaker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="See more"
                     android:layout_marginTop="10dp"
+                    android:text="See more"
                     android:textColor="#89CFF0"
                     android:textSize="15sp" />
 
@@ -276,95 +282,342 @@
                     android:textColor="#000000"
                     android:textSize="17sp" />
 
-                <LinearLayout
-                    android:id="@+id/ll_popular"
-                    android:layout_marginTop="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    android:orientation="vertical">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_popular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        android:layout_weight="1">
+                <!--                <LinearLayout-->
+                <!--                    android:id="@+id/ll_popular"-->
+                <!--                    android:layout_marginTop="10dp"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="300dp"-->
+                <!--                    android:orientation="vertical">-->
 
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginRight="2dp"
-                            android:layout_weight="1">
+                <!--                    <LinearLayout-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="0dp"-->
+                <!--                        android:layout_weight="1">-->
 
-                            <com.google.android.material.imageview.ShapeableImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:adjustViewBounds="true"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/im_camera_1" />
-                        </LinearLayout>
+                <!--                        <LinearLayout-->
+                <!--                            android:layout_width="0dp"-->
+                <!--                            android:layout_height="match_parent"-->
+                <!--                            android:layout_marginRight="2dp"-->
+                <!--                            android:layout_weight="1">-->
 
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginLeft="2dp"
-                            android:layout_weight="1">
+                <!--                            <com.google.android.material.imageview.ShapeableImageView-->
+                <!--                                android:layout_width="match_parent"-->
+                <!--                                android:layout_height="match_parent"-->
+                <!--                                android:adjustViewBounds="true"-->
+                <!--                                android:scaleType="centerCrop"-->
+                <!--                                android:src="@drawable/im_camera_1" />-->
+                <!--                        </LinearLayout>-->
 
-                            <com.google.android.material.imageview.ShapeableImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:adjustViewBounds="true"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/im_camera_2" />
-                        </LinearLayout>
+                <!--                        <LinearLayout-->
+                <!--                            android:layout_width="0dp"-->
+                <!--                            android:layout_height="match_parent"-->
+                <!--                            android:layout_marginLeft="2dp"-->
+                <!--                            android:layout_weight="1">-->
 
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        android:layout_marginTop="4dp"
-                        android:layout_weight="1">
-
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginRight="2dp"
-                            android:layout_weight="1">
-
-                            <com.google.android.material.imageview.ShapeableImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:adjustViewBounds="true"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/im_camera_3" />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginLeft="2dp"
-                            android:layout_weight="1">
-
-                            <com.google.android.material.imageview.ShapeableImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:adjustViewBounds="true"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/im_camera_4" />
-                        </LinearLayout>
+                <!--                            <com.google.android.material.imageview.ShapeableImageView-->
+                <!--                                android:layout_width="match_parent"-->
+                <!--                                android:layout_height="match_parent"-->
+                <!--                                android:adjustViewBounds="true"-->
+                <!--                                android:scaleType="centerCrop"-->
+                <!--                                android:src="@drawable/im_camera_2" />-->
+                <!--                        </LinearLayout>-->
 
 
-                    </LinearLayout>
+                <!--                    </LinearLayout>-->
 
-                </LinearLayout>
+                <!--                    <LinearLayout-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="0dp"-->
+                <!--                        android:layout_marginTop="4dp"-->
+                <!--                        android:layout_weight="1">-->
+
+                <!--                        <LinearLayout-->
+                <!--                            android:layout_width="0dp"-->
+                <!--                            android:layout_height="match_parent"-->
+                <!--                            android:layout_marginRight="2dp"-->
+                <!--                            android:layout_weight="1">-->
+
+                <!--                            <com.google.android.material.imageview.ShapeableImageView-->
+                <!--                                android:layout_width="match_parent"-->
+                <!--                                android:layout_height="match_parent"-->
+                <!--                                android:adjustViewBounds="true"-->
+                <!--                                android:scaleType="centerCrop"-->
+                <!--                                android:src="@drawable/im_camera_3" />-->
+                <!--                        </LinearLayout>-->
+
+                <!--                        <LinearLayout-->
+                <!--                            android:layout_width="0dp"-->
+                <!--                            android:layout_height="match_parent"-->
+                <!--                            android:layout_marginLeft="2dp"-->
+                <!--                            android:layout_weight="1">-->
+
+                <!--                            <com.google.android.material.imageview.ShapeableImageView-->
+                <!--                                android:layout_width="match_parent"-->
+                <!--                                android:layout_height="match_parent"-->
+                <!--                                android:adjustViewBounds="true"-->
+                <!--                                android:scaleType="centerCrop"-->
+                <!--                                android:src="@drawable/im_camera_4" />-->
+                <!--                        </LinearLayout>-->
+
+
+                <!--                    </LinearLayout>-->
+
+                <!--                </LinearLayout>-->
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Shop now"
                     android:layout_marginTop="10dp"
+                    android:text="Shop now"
                     android:textColor="#89CFF0"
                     android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:padding="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Top Sellers in Books for you"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:src="@drawable/book1"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"/>
+
+                    <LinearLayout
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="The Very Hungry Caterpiller"
+                            android:textColor="@color/black"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <AbsoluteLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="$"
+                                    android:textSize="12sp"
+                                    android:textColor="@color/black"
+                                    android:layout_x="0dp"
+                                    android:layout_y="4dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp"
+                                    android:text="5"
+                                    android:textColor="@color/black"
+                                    android:textSize="22sp"
+                                    android:layout_x="7dp"
+                                    android:layout_y="0px"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="06"
+                                    android:textSize="10sp"
+                                    android:textColor="@color/black"
+                                    android:layout_x="20dp"
+                                    android:layout_y="4dp"/>
+
+                            </AbsoluteLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:src="@drawable/book2"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"/>
+
+                    <LinearLayout
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="If Animals Kissed Good Night"
+                            android:textColor="@color/black"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <AbsoluteLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="$"
+                                    android:textSize="12sp"
+                                    android:textColor="@color/black"
+                                    android:layout_x="0dp"
+                                    android:layout_y="4dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp"
+                                    android:text="3"
+                                    android:textColor="@color/black"
+                                    android:textSize="22sp"
+                                    android:layout_x="7dp"
+                                    android:layout_y="0px"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="55"
+                                    android:textSize="10sp"
+                                    android:textColor="@color/black"
+                                    android:layout_x="20dp"
+                                    android:layout_y="4dp"/>
+
+                                <TextView
+                                    android:id="@+id/tv_real_price"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" $7.99 "
+                                    android:textSize="12sp"
+                                    android:textColor="#605F5F"
+                                    android:background="@drawable/stricking_text"
+                                    android:foreground="@drawable/stricking_text"
+                                    android:layout_x="37dp"
+                                    android:layout_y="10dp"/>
+
+                            </AbsoluteLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="15dp">
+
+                    <ImageView
+                        android:src="@drawable/book3"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"/>
+
+                    <LinearLayout
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Chicka Chicka Boom Boom (Board Book)"
+                            android:textColor="@color/black"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <AbsoluteLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="$"
+                                    android:textSize="12sp"
+                                    android:textColor="@color/black"
+                                    android:layout_x="0dp"
+                                    android:layout_y="4dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp"
+                                    android:text="4"
+                                    android:textColor="@color/black"
+                                    android:textSize="22sp"
+                                    android:layout_x="7dp"
+                                    android:layout_y="0px"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="59"
+                                    android:textSize="10sp"
+                                    android:textColor="@color/black"
+                                    android:layout_x="20dp"
+                                    android:layout_y="4dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text=" $7.99 "
+                                    android:textSize="12sp"
+                                    android:textColor="#605F5F"
+                                    android:background="@drawable/stricking_text"
+                                    android:foreground="@drawable/stricking_text"
+                                    android:layout_x="37dp"
+                                    android:layout_y="10dp"/>
+
+
+                            </AbsoluteLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
 
             </LinearLayout>
 
