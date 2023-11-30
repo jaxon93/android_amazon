@@ -48,10 +48,13 @@ class PopularAdapter(var context: Context, var items: ArrayList<Popular>): Recyc
 
         // Set layout width programmatically
         val params: ViewGroup.LayoutParams = itemView.layoutParams
-        params.width = (widthPixels / 2)
-        params.height = (widthPixels / 2)
+        params.width = (widthPixels / 2) - dpToPx(context, 6)
+        params.height = (widthPixels / 2)- dpToPx(context, 6)
 
         itemView.layoutParams = params
+    }
+    fun dpToPx(context: Context, dp: Int): Int {
+        return (dp * context.resources.displayMetrics.density).toInt()
     }
 
 }

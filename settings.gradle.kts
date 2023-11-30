@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "android_amazon"
 include(":app")
- 
+include(":android_amazon_java")
